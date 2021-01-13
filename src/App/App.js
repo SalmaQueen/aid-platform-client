@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import { history } from '../_helpers';
 import { alertActions } from '../_actions';
-import { PrivateRoute } from '../_components';
+// import { PrivateRoute } from '../_components';
 
 // import Registration from "../Components/auth/Registration";
 import { HomePage } from "../Components/HomePage";

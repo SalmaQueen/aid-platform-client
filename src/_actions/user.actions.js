@@ -18,7 +18,7 @@ function login(email, password) {
             .then(
                 user => { 
                     dispatch(success(user));
-                    if(user.success == true){
+                    if(user.success === true){
                         authHeader()
                         history.push('/');
                     }
